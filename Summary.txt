@@ -1,0 +1,11 @@
+1) Tech stack & libraries used : 
+Html, Scss, JS, React, MUI (For chart)
+
+2) Made a re-usable polling component which can be used on any page using a single prop 'data'
+and it will display all questions along with their answers and a bar chart.
+
+3) What could be improved : 
+a) There should be seperate chart component.
+b) There should be seperate input component, there is seperate Button component but due to lack of time input component is not created.
+c) Test cases are missing.
+d) UI could be better.
