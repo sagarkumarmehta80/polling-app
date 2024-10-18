@@ -9,3 +9,18 @@ a) There should be seperate chart component.
 b) There should be seperate input component, there is seperate Button component but due to lack of time input component is not created.
 c) Test cases are missing.
 d) UI could be better.
+
+Data format for polling data prop :
+
+const data = [
+        {
+            id: 1,
+            question: "Question",
+            answers: [
+                { option: 1, answer: 'Answer1', voteCount: 2 }, 
+                { option: 2, answer: 'Answer2', voteCount: 5 },
+                { option: 3, answer: 'Answer3', voteCount: 3 },
+            ],
+        },
+    ];
+//option : Should be greater than 0, voteCount : Should be positive integer
