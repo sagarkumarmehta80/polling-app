@@ -1,0 +1,28 @@
+.poll_wrap {
+    padding: 10px;
+    .polls {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 0 25px;
+        border: 1px solid var(--primaryColor);
+        border-radius: var(--border-radius);
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 680px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .left {
+            padding: 25px;
+            max-width: 300px;
+            width: 100%;
+            .question {
+                line-height: 18px;
+            }
+            .options {
+                margin: 10px 0;
+            }
+        }
+    }
+}

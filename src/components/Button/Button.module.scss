@@ -1,0 +1,18 @@
+button {
+    background: var(--secondaryBGColor);
+    color: var(--primaryTextColor);
+    border: 1px solid var(--primaryColor);
+    border-radius: var(--border-radius);
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 1rem;
+    &:hover {
+        background: var(--primaryBGColor);
+        color: var(--secondaryTextColor);
+    }
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
+}

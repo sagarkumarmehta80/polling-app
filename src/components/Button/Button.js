@@ -1,0 +1,10 @@
+import './Button.module.scss';
+const Button = ({ children, onClick, ...rest }) => {
+    return (
+        <button onClick={onClick} {...rest}>
+            {children}
+        </button>
+    );
+};
+
+export default Button;
